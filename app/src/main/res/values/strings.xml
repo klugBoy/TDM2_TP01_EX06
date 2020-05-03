@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EXO_06</string>
+    <string-array name="array">
+        <item></item>
+        <item>Module</item>
+        <item>Enseignant</item>
+        <item>Salle</item>
+    </string-array>
+</resources>

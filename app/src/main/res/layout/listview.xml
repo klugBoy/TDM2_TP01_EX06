@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:tools="http://schemas.android.com/tools"
+>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                    android:layout_weight="1"
+    >
+        <TextView android:layout_width="match_parent" android:gravity="center"
+                  android:layout_height="match_parent" android:layout_weight="1" android:text="Module"/>
+        <TextView android:layout_width="match_parent" android:gravity="center"
+                  android:layout_height="match_parent" android:layout_weight="1" android:id="@+id/module_txt"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+    >
+        <TextView android:layout_width="match_parent" android:gravity="center" android:layout_height="match_parent"
+                  android:layout_weight="1" android:text="Enseignant"/>
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:layout_weight="1" android:gravity="center" android:id="@+id/enseignant_txt"/>
+
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+    >
+        <TextView android:layout_width="match_parent" android:gravity="center" android:layout_height="match_parent"
+                  android:layout_weight="1" android:text="Salle"/>
+        <TextView android:layout_width="match_parent" android:gravity="center" android:id="@+id/salle_txt"
+                  android:layout_height="match_parent" android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+    >
+        <TextView android:layout_width="match_parent" android:gravity="center" android:text="Date"
+                  android:layout_height="match_parent" android:layout_weight="1"/>
+        <TextView android:layout_width="match_parent" android:gravity="center" android:id="@+id/date_txt"
+                  android:layout_height="match_parent" android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+    >
+        <TextView android:layout_width="match_parent" android:gravity="center" android:text="Debut"
+                  android:layout_height="match_parent" android:layout_weight="1"/>
+        <TextView android:layout_width="match_parent" android:gravity="center" android:id="@+id/debut_txt" android:layout_height="match_parent" android:layout_weight="1"/>
+        <TextView android:layout_width="match_parent" android:gravity="center" android:text="Fin"
+                  android:layout_height="match_parent" android:layout_weight="1"/>
+        <TextView android:layout_width="match_parent" android:gravity="center" android:id="@+id/fin_txt" android:layout_height="match_parent" android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>
